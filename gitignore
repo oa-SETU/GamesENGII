@@ -1,0 +1,69 @@
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+
+# ---- Editors/IDEs ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Build artifacts ----
+build/
+bin/
+obj/
+out/
+dist/
+target/
+.gradle/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.log
+
+# ---- Languages (C/C++/Java/Unity) ----
+# CMake
+*.dir/
+install_manifest.txt
+
+# Java/Maven/Gradle
+.mvn/
+*.jar
+*.war
+*.ear
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+*.unitypackage
+
+# ---- Python helpers (if any) ----
+__pycache__/
+*.pyc
+.venv/
+
+# ---- Archives ----
+*.zip
+*.tar
+*.gz
+*.7z
+
+# ---- Data ----
+*.csv
+*.tsv
+
+# Keep placeholder so empty dirs trackable where needed
+studentLabs/.placeholders/
