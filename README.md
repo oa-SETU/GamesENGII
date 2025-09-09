@@ -46,12 +46,6 @@ By completing this module, students will be able to:
 
 ---
 
-## ✅ Final Notes
-- Use branches and Pull Requests responsibly.  
-- Keep commits clean and meaningful.  
-- Your folder = your responsibility.  
-
-Happy coding 🎮
 
 ## 📂 Repository Structure
 ```
@@ -219,6 +213,12 @@ git push -u origin "${LAB}/${REG}"
 Then open a PR on GitHub.
 
 ---
+## ✅ Final Notes
+- Use branches and Pull Requests responsibly.  
+- Keep commits clean and meaningful.  
+- Your folder = your responsibility.  
+
+Happy coding 🎮
 
 ## Contact
 Availability: **C202** (Wednesday 1500 - 1700 hrs)
