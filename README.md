@@ -30,4 +30,4 @@ GamesENGII/
 4. Only changes inside **your** folder will be mergeable without instructor override.  
 5. Push updates for each lab via new commits/PRs.
 
-See the **Detailed Instructions** in the course LMS and the repository wiki for screenshots and FAQs.
+See the **Detailed Instructions** in the course LMS (Blackboard).
