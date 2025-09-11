@@ -1,12 +1,12 @@
-# 🎮 GamesENGII – COMP H4204
+# 🎮 GamesENGII – CW208
 
-Repository for **COMP H4204 – Games Engineering II** .  
+Repository for **CW208 – Games Engineering II** .  
 It contains lab notes, reference code, and per-student lab submissions.
 
 ---
 
 
-## 📚 Module Information (COMP H4204)
+## 📚 Module Information (CW208)
 
 - **Module Title:** Games Engineering II  
 - **Credits:** 10  
