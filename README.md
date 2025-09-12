@@ -53,7 +53,7 @@ GamesENGII/
 ├─ LabNotes/            # Instructor-provided lab handouts (weekly)
 ├─ LabCodes/            # Instructor reference/starter code (weekly)
 ├─ studentLabs/         # Each student has their own folder here
-│  └─ SETU202212/       # Example student folder with registration SETU202212
+│  └─ SETU202212/       # Example student folder with registration/Student ID c00123456
 └─ .github/
    └─ CODEOWNERS
 ```
