@@ -79,9 +79,9 @@ git config --global user.email "your.email@example.com"
 ```
 
 ### 3. Create your personal folder (first lab)
-Your folder must be named exactly as your registration code:
+Your folder must be named exactly as your registration code/Student ID:
 ```bash
-REG="SETU202212"   # This is the example code, replace with your own registration code
+REG="c00123456"   # Replace with your StudentID (case-sensitive).
 mkdir -p "studentLabs/$REG"
 ```
 
@@ -97,7 +97,7 @@ Each lab week, follow this cycle:
 Always pull the latest course material before starting:
 ```bash
 git checkout main
-git pull --rebase
+git pull --rebase (optional)
 ```
 
 ### 2. Create a branch for this lab
@@ -112,16 +112,7 @@ git checkout -b "${LAB}/${REG}"
 ```bash
 mkdir -p "studentLabs/$REG/${LAB}"
 
-# Example C++ starter file
-cat > "studentLabs/$REG/${LAB}/main.cpp" << 'CPP'
-#include <iostream>
-int main() {
-    std::cout << "Hello, GamesENGII!\n";
-    return 0;
-}
-CPP
-
-# Or Add your files directly from your IDE
+Add your files directly from your IDE or working folder
 
 # Optional README for the lab
 cat > "studentLabs/$REG/${LAB}/README.md" << 'MD'
@@ -147,7 +138,7 @@ git push -u origin "${LAB}/${REG}"
 ### 6. Open a Pull Request
 - Go to the repo on GitHub.  
 - Click **“Compare & pull request.”**  
-- Title format: `lab01 – SETU202212`.  
+- Title format: `lab01 – c00123456`.  
 - Ensure only files under your folder are included.  
 - Submit. Instructor reviews & merges.
 
@@ -191,21 +182,21 @@ git checkout -b "${LAB}/${REG}"
 
 ---
 
-## ⚡ Quick Reference
+## ⚡ Quick Reference (for every week)
 
 ```bash
 # Clone
-git clone https://github.com/ORG_OR_USER/GamesENGII.git
+git clone https://github.com/oa-SETU/GamesENGII.git
 cd GamesENGII
-REG="SETU202212"
+REG="c00123456"
 
 # New lab week
 git checkout main
 git pull --rebase
-LAB="lab01"
+LAB="labNN"
 git checkout -b "${LAB}/${REG}"
 mkdir -p studentLabs/$REG/$LAB
-echo "int main(){return 0;}" > studentLabs/$REG/$LAB/main.cpp
+# (you can use git add. to include all files for that branch for commit) 
 git add studentLabs/$REG/$LAB
 git commit -m "${LAB}: submission for $REG"
 git push -u origin "${LAB}/${REG}"
